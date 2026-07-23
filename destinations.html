@@ -85,12 +85,10 @@
                 </div>
             </div>
            <a href="#" onclick="openTrips()">My Trips</a>
-            <a href="#">Experiences</a>
+            <a href="experinces.html">Experiences</a>
         </nav>
 
-        <div class="nav-right">
-            <button class="btn-trips" id="btn-signin" onclick="window.location.href='signin.html'">Sign In</button>
-        </div>
+        <div class="nav-right" id="nav-right">
 
     </header>
     <div class="search-box">
@@ -106,38 +104,59 @@
 </body>
 
 <script>
-    function openTrips() {
-    let user = JSON.parse(localStorage.getItem("loggedInUser"));
+const navRight = document.getElementById("nav-right");
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
 
-    if (!user) {
-        alert("Please login first.");
+if (loggedInUser && loggedInUser.email) {
+
+    navRight.innerHTML = `
+        <div class="profile-menu">
+
+            <div class="profile-circle">
+                ${loggedInUser.email.charAt(0).toUpperCase()}
+            </div>
+
+            <div class="dropdown">
+                <a href="#" id="logoutBtn">Logout</a>
+            </div>
+
+        </div>
+    `;
+
+    const profileCircle = document.querySelector(".profile-circle");
+    const dropdown = document.querySelector(".dropdown");
+
+    profileCircle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("show");
+    });
+
+    document.getElementById("logoutBtn").addEventListener("click", function (e) {
+        e.preventDefault();
+
+        localStorage.removeItem("loggedInUser");
+
+        window.location.href = "index.html";
+    });
+
+    document.addEventListener("click", function () {
+        dropdown.classList.remove("show");
+    });
+
+} else {
+
+    navRight.innerHTML = `
+        <button class="btn-trips" id="signinBtn">
+            Sign In
+        </button>
+    `;
+
+    document.getElementById("signinBtn").addEventListener("click", function () {
         window.location.href = "signin.html";
-        return;
-    }
+    });
 
-    window.location.href = "trips.html";
 }
 </script>
-<script>
-        const user1 = JSON.parse(localStorage.getItem("loggedInUser"));
-        const btn = document.getElementById("btn-signin");
-if (user1) {
-    btn.textContent = "Logout";
-    btn.addEventListener("click", logout);
-} else {
-    btn.textContent = "Sign In";
-    btn.addEventListener("click", goToLogin);
-}
-
-function logout() {
-    localStorage.removeItem("loggedInUser");
-    window.location.reload();
-}
-
-function goToLogin() {
-    window.location.href = "signin.html";
-}
-    </script>
 <!-- <script src="gettrips.js"></script> -->
 <script src="index.js"></script>
 <script src="destinations.js"></script>

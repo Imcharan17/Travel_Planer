@@ -225,6 +225,16 @@
           "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd",
           "countryName": "London",
           "plannedDate": "2026-08-07"
+        },
+        {
+          "id": "1",
+          "title": "7 Days in Iceland: Reykjavik & Golden Circle",
+          "duration": "7 DAYS / 6 NIGHTS",
+          "price": 2899,
+          "currency": "$",
+          "image": "https://images.unsplash.com/photo-1504893524553-b855bce32c67",
+          "countryName": "Iceland",
+          "plannedDate": "2026-07-24"
         }
       ]
     },
