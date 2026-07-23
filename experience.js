@@ -41,7 +41,7 @@ async function postExperience() {
         date: new Date().toLocaleDateString()
     };
 
-    await fetch("http://localhost:3000/experiences", {
+    await fetch("https://travel-planer-backend-gmnt.onrender.com/experiences", {
 
         method: "POST",
 
@@ -63,7 +63,7 @@ async function postExperience() {
 
 async function loadExperiences() {
 
-    const res = await fetch("http://localhost:3000/experiences");
+    const res = await fetch("https://travel-planer-backend-gmnt.onrender.com/experiences");
     const data = await res.json();
 
     const posts = document.getElementById("posts");

@@ -7,7 +7,7 @@ function signin() {
 
 async function login(email, password) {
 
-    let res = await fetch("http://localhost:3000/users");
+    let res = await fetch("https://travel-planer-backend-gmnt.onrender.com/users");
     let users = await res.json();
 
     const user = users.find(

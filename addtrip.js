@@ -20,7 +20,7 @@ async function addtrip(id, countryName, dateInputId) {
     try {
 
         // Fetch selected trip
-        const res = await fetch(`http://localhost:3000/${countryName}/${id}`);
+        const res = await fetch(`https://travel-planer-backend-gmnt.onrender.com/${countryName}/${id}`);
 
         if (!res.ok) {
             throw new Error("Trip not found");

@@ -2,7 +2,7 @@ let buynow = document.getElementById("buynow");
 let user = JSON.parse(localStorage.getItem("loggedInUser"));
 
 // Load all trips
-fetch("http://localhost:3000/trips")
+fetch("https://travel-planer-backend-gmnt.onrender.com/trips")
     .then(res => res.json())
     .then(data => {
 

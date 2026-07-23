@@ -10,7 +10,7 @@ getdata();
 
 async function getdata() {
 
-    let userres = await fetch(`http://localhost:3000/users/${user.id}`);
+    let userres = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`);
     let currentuser = await userres.json();
 
     let buynow = document.getElementById("addtrips");
@@ -55,7 +55,7 @@ async function getdata() {
 
 async function deletedata(id) {
 
-    let userres = await fetch(`http://localhost:3000/users/${user.id}`);
+    let userres = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`);
     let currentuser = await userres.json();
 
     for (let i = 0; i < currentuser.trips.length; i++) {
@@ -65,7 +65,7 @@ async function deletedata(id) {
         }
     }
 
-    await fetch(`http://localhost:3000/users/${user.id}`, {
+    await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"

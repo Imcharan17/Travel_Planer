@@ -5,7 +5,7 @@ create(email,password)
 }
 async function create(email,password) {
     // Get all users
-    const response = await fetch("http://localhost:3000/users");
+    const response = await fetch("https://travel-planer-backend-gmnt.onrender.com/users");
     const users = await response.json();
 
     // Check if email already exists
@@ -18,7 +18,7 @@ async function create(email,password) {
         return;
     }
     else{
-    await fetch("http://localhost:3000/users",{"method":"POST",
+    await fetch("https://travel-planer-backend-gmnt.onrender.com/users",{"method":"POST",
         "headers":{
             "content-Type":"application/json"
         },
