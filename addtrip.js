@@ -29,7 +29,7 @@ async function addtrip(id, countryName, dateInputId) {
         const trip = await res.json();
 
         // Fetch latest user data
-        const userRes = await fetch(`http://localhost:3000/users/${user.id}`);
+        const userRes = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`);
 
         if (!userRes.ok) {
             throw new Error("User not found");
@@ -60,7 +60,7 @@ async function addtrip(id, countryName, dateInputId) {
         userData.trips.push(trip);
 
         // Update user in JSON Server
-        const updateRes = await fetch(`http://localhost:3000/users/${user.id}`, {
+        const updateRes = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"

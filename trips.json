@@ -195,6 +195,36 @@
           "image": "https://images.unsplash.com/photo-1555990538-17392d2b7d52",
           "countryName": "Croatia",
           "plannedDate": "2026-07-24"
+        },
+        {
+          "id": "2",
+          "title": "5 Days in Iceland: South Coast Adventure",
+          "duration": "5 DAYS / 4 NIGHTS",
+          "price": 2149,
+          "currency": "$",
+          "image": "https://images.unsplash.com/photo-1476611338391-6f395a0ebc7b",
+          "countryName": "Iceland",
+          "plannedDate": "2026-07-24"
+        },
+        {
+          "id": "3",
+          "title": "8 Days in Iceland: Ring Road Explorer",
+          "duration": "8 DAYS / 7 NIGHTS",
+          "price": 3699,
+          "currency": "$",
+          "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+          "countryName": "Iceland",
+          "plannedDate": "2026-07-25"
+        },
+        {
+          "id": "32",
+          "title": "7 Days in London: History & Culture Experience",
+          "duration": "7 DAYS / 6 NIGHTS",
+          "price": 3399,
+          "currency": "$",
+          "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd",
+          "countryName": "London",
+          "plannedDate": "2026-08-07"
         }
       ]
     },

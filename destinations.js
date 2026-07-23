@@ -1,41 +1,45 @@
+const BASE_URL = "https://travel-planer-backend-gmnt.onrender.com";
+
 let allTrips = [];
 
 // Load all destinations
 async function getdestinations() {
+    try {
+        allTrips = [];
 
-    const res = await fetch("trips.json");
-    const data = await res.json();
+        // Get all countries
+        const countryRes = await fetch(`${BASE_URL}/countries`);
+        const countries = await countryRes.json();
 
-    allTrips = [];
+        // Fetch trips for each country
+        for (const country of countries) {
+            const countryName = country.name;
 
-    for (let country in data) {
+            const tripRes = await fetch(
+                `${BASE_URL}/${encodeURIComponent(countryName)}`
+            );
 
-        // Skip non-destination collections
-        if (
-            country === "trips" ||
-            country === "users" ||
-            country === "countries" ||
-            country==="experiences"||
-            country === "$schema"
-        ) {
-            continue;
+            const trips = await tripRes.json();
+
+            if (Array.isArray(trips)) {
+                trips.forEach(trip => {
+                    allTrips.push({
+                        country: countryName,
+                        trip: trip
+                    });
+                });
+            }
         }
 
-        let trips = data[country];
+        displayTrips(allTrips);
 
-        if (!Array.isArray(trips)) {
-            continue;
-        }
+    } catch (err) {
+        console.error(err);
 
-        trips.forEach(trip => {
-            allTrips.push({
-                country: country,
-                trip: trip
-            });
-        });
+        document.getElementById("addtrips").innerHTML = `
+            <h2>Failed to load destinations.</h2>
+        `;
     }
-
-    displayTrips(allTrips);
 }
 
 // Display trips
@@ -51,10 +55,10 @@ function displayTrips(trips) {
 
     trips.forEach(item => {
 
-        let trip = item.trip;
-        let country = item.country;
+        const trip = item.trip;
+        const country = item.country;
 
-        let card = document.createElement("div");
+        const card = document.createElement("div");
         card.className = "trip-card";
 
         card.innerHTML = `
@@ -80,16 +84,13 @@ function displayTrips(trips) {
 
             <button
                 class="btn-view"
-                onclick="addtrip(${trip.id}, '${country}', 'travelDate${trip.id}')">
-
+                onclick="addtrip('${trip.id}','${country}','travelDate${trip.id}')">
                 Add To My Trips
-
             </button>
         `;
 
         container.appendChild(card);
 
-        // Prevent selecting past dates
         document.getElementById(`travelDate${trip.id}`).min =
             new Date().toISOString().split("T")[0];
     });

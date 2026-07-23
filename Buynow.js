@@ -85,7 +85,7 @@ async function addTrip(id, dateInputId) {
     try {
 
         // Get selected trip
-        const tripRes = await fetch(`http://localhost:3000/trips/${id}`);
+        const tripRes = await fetch(`https://travel-planer-backend-gmnt.onrender.com/trips/${id}`);
 
         if (!tripRes.ok) {
             throw new Error("Trip not found");
@@ -94,7 +94,7 @@ async function addTrip(id, dateInputId) {
         const trip = await tripRes.json();
 
         // Get latest user
-        const userRes = await fetch(`http://localhost:3000/users/${user.id}`);
+        const userRes = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`);
 
         if (!userRes.ok) {
             throw new Error("User not found");
@@ -121,7 +121,7 @@ async function addTrip(id, dateInputId) {
 
         userData.trips.push(trip);
 
-        const updateRes = await fetch(`http://localhost:3000/users/${user.id}`, {
+        const updateRes = await fetch(`https://travel-planer-backend-gmnt.onrender.com/users/${user.id}`, {
 
             method: "PATCH",
 

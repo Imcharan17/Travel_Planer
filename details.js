@@ -40,7 +40,7 @@ fetch("http://localhost:3000/countries")
 
 const buynow = document.getElementById("buyit");
 
-fetch(`http://localhost:3000/${countryName}`)
+fetch(`https://travel-planer-backend-gmnt.onrender.com/${countryName}`)
     .then(res => res.json())
     .then(data => {
 

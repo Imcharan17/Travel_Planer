@@ -77,7 +77,7 @@
                     <img class="right-img" src="right-img.jpg" alt="">
                     <h1 class="right-h1">Not sure where to start?</h1>
                     <p class="right-p">Get inspired by destinations chosen in this year's Best in Travel list.</p>
-                    <button class="right-btn">Start Discovering</button>
+                     <button class="right-btn"> <a href="destinations.html" style="text-decoration: none;">Start Discovering</a></button>
                 </div>
                 </div>
             </div>
@@ -105,10 +105,24 @@
         <script src="index.js"></script>
 
     </div>
-    <script>
-        const user = JSON.parse(localStorage.getItem("loggedInUser"));
+    
+<script>
+    function openTrips() {
+    let user = JSON.parse(localStorage.getItem("loggedInUser"));
+
+    if (!user) {
+        alert("Please login first.");
+        window.location.href = "signin.html";
+        return;
+    }
+
+    window.location.href = "trips.html";
+}
+</script>
+<script>
+        const user1 = JSON.parse(localStorage.getItem("loggedInUser"));
         const btn = document.getElementById("btn-signin");
-if (user) {
+if (user1) {
     btn.textContent = "Logout";
     btn.addEventListener("click", logout);
 } else {
