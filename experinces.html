@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Experiences</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="experience.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+ <!-- Header -->
+    <header class="header">
+
+        <div class="logo" >
+            <a href="index.html" style="text-decoration: none; ">
+            <span style="color: aliceblue;">Travel</span>
+            <i class="fa-solid fa-earth-americas"></i>
+            <span class="sync">Sync</span>
+            </a>
+        </div>
+
+        <nav class="nav-links">
+            <div class="destination">
+                <a href="destinations.html">Destinations</a>
+                <div class="destination-menu">
+                    <div class="menu-center">
+                                        <h3>OUR FAVOURITE</h3>
+                <a href="#" class="country">Iceland</a>
+                <hr>
+                <a href="#" class="country">Italy</a>
+                <hr>
+                <a href="#" class="country">Japan</a>
+                <hr>
+                <a href="#" class="country">London</a>
+                <hr>
+                <a href="#" class="country">Portugal</a>
+                <hr>
+                <a href="#" class="country">Spain</a>
+                <hr>
+                <a href="destinations.html">See All Destinations</a>
+                         </div>
+                          <div class="menu-center">
+                                        <h3>WHERE TO GO IN THIS SPRING</h3>
+                <a href="#" class="country">Albania</a>
+                <hr>
+                <a href="#" class="country">Bermuda</a>
+                <hr>
+                <a href="#" class="country">Croatia</a>
+                <hr>
+                <a href="#" class="country">Greece</a>
+                <hr>
+                <a href="#" class="country">Morocco</a>
+                <hr>
+                <a href="#" class="country">Scotland</a>
+                <hr>
+                <a href="#" class="country">Tanzaina</a>
+                </div>
+                <div class="menu-center">
+                                        <h3>WHERE TO GO IN THIS WINTER</h3>
+                <a href="#" class="country">Srilanka</a>
+                <hr>
+                <a href="#"class="country">India</a>
+                <hr>
+                <a href="#" class="country">The Azores</a>
+                <hr>
+                <a href="#" class="country">Ireland</a>
+                <hr>
+                <a href="#" class="country">Los Angeles</a>
+                <hr>
+                <a href="#" class="country">New York City</a>
+                <hr>
+                <a href="#">Mexico</a>
+                </div>
+                <div class="last">
+                    <img class="right-img" src="right-img.jpg" alt="">
+                    <h1 class="right-h1">Not sure where to start?</h1>
+                    <p class="right-p">Get inspired by destinations chosen in this year's Best in Travel list.</p>
+                    <button class="right-btn"> <a href="destinations.html" style="text-decoration: none;">Start Discovering</a></button>
+                </div>
+                </div>
+            </div>
+            <a href="trips.html">My Trips</a>
+            <a href="experinces.html">Experiences</a>
+        </nav>
+        <div class="nav-right" id="nav-right"></div>
+
+    </header>
+
+
+
+<section class="hero">
+
+    <h1>🌍 Travel Experiences</h1>
+
+    <p>
+        Discover inspiring travel stories from our community
+        and share your own unforgettable adventures.
+    </p>
+
+</section>
+
+
+<div class="container">
+
+    <div class="post-box">
+
+        <h2>Share Your Experience</h2>
+
+        <input
+        type="text"
+        id="title"
+        placeholder="Experience Title">
+
+        <input
+        type="text"
+        id="country"
+        placeholder="Country">
+
+        <textarea
+        id="description"
+        placeholder="Tell everyone about your trip..."></textarea>
+
+        <input
+        type="text"
+        id="image"
+        placeholder="Paste Image URL">
+
+        <button onclick="postExperience()">
+
+            <i class="fa-solid fa-paper-plane"></i>
+
+            Post Experience
+
+        </button>
+
+    </div>
+
+
+    <h2 class="feed-title">
+
+        Community Experiences
+
+    </h2>
+
+    <div id="posts">
+
+    </div>
+
+</div>
+
+<script>
+    function openTrips() {
+    let user = JSON.parse(localStorage.getItem("loggedInUser"));
+
+    if (!user) {
+        alert("Please login first.");
+        window.location.href = "signin.html";
+        return;
+    }
+
+    window.location.href = "trips.html";
+}
+</script>
+<script>
+        const user1 = JSON.parse(localStorage.getItem("loggedInUser"));
+        const btn = document.getElementById("btn-signin");
+if (user1) {
+    btn.textContent = "Logout";
+    btn.addEventListener("click", logout);
+} else {
+    btn.textContent = "Sign In";
+    btn.addEventListener("click", goToLogin);
+}
+
+function logout() {
+    localStorage.removeItem("loggedInUser");
+    window.location.reload();
+}
+
+function goToLogin() {
+    window.location.href = "signin.html";
+}
+    </script>
+
+<script src="experience.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

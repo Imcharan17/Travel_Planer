@@ -1,0 +1,229 @@
+/* ===========================
+   Page
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+}
+
+/* ===========================
+   Trips Container
+=========================== */
+
+#addtrips{
+    width:90%;
+    margin:130px auto 40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,380px);
+    justify-content:center;
+    gap:30px;
+}
+
+/* ===========================
+   Card
+=========================== */
+
+.trip-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.trip-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+/* ===========================
+   Image
+=========================== */
+
+.buy-image{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+/* ===========================
+   Duration Badge
+=========================== */
+
+.duration{
+    display:inline-block;
+    margin:18px 20px 0;
+    padding:7px 15px;
+    background:#e8f1ff;
+    color:#1565c0;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+/* ===========================
+   Title
+=========================== */
+
+.buy-h2{
+    margin:15px 20px;
+    font-size:24px;
+    color:#222;
+    line-height:1.5;
+    min-height:70px;
+}
+
+/* ===========================
+   Bottom Section
+=========================== */
+
+.price-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:20px;
+    padding-top:20px;
+    border-top:1px solid #ececec;
+    gap:20px;
+}
+
+/* ===========================
+   Date + Price Layout
+=========================== */
+
+.price-info{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-areas:
+        "date from"
+        "date price"
+        "date small";
+    align-items:center;
+    column-gap:25px;
+    row-gap:4px;
+    width:100%;
+}
+
+/* ===========================
+   Planned Date
+=========================== */
+
+.date{
+    grid-area:date;
+    background:#f0f8ff;
+    border-left:4px solid #1565c0;
+    border-radius:8px;
+    padding:10px 14px;
+    min-width:170px;
+}
+
+.date strong{
+    display:block;
+    margin-top:5px;
+    color:#1565c0;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* ===========================
+   Price
+=========================== */
+
+.from{
+    grid-area:from;
+    justify-self:end;
+    font-size:12px;
+    color:#888;
+    letter-spacing:1px;
+}
+
+.price{
+    grid-area:price;
+    justify-self:end;
+    font-size:30px;
+    font-weight:bold;
+    color:#0f766e;
+}
+
+.price-info small{
+    grid-area:small;
+    justify-self:end;
+    color:#666;
+    font-size:13px;
+}
+
+/* ===========================
+   Delete Button
+=========================== */
+
+.delete-btn{
+    background:#ef4444;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+    white-space:nowrap;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+    transform:translateY(-2px);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    #addtrips{
+        width:95%;
+        grid-template-columns:1fr;
+    }
+
+    .buy-image{
+        height:220px;
+    }
+
+    .buy-h2{
+        font-size:20px;
+    }
+
+    .price-box{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .price-info{
+        grid-template-columns:1fr;
+        grid-template-areas:
+            "date"
+            "from"
+            "price"
+            "small";
+        row-gap:10px;
+    }
+
+    .from,
+    .price,
+    .price-info small{
+        justify-self:start;
+        text-align:left;
+    }
+
+    .price{
+        font-size:24px;
+    }
+
+    .delete-btn{
+        width:100%;
+        margin-top:15px;
+    }
+}

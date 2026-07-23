@@ -1,0 +1,2076 @@
+{
+  "trips": [
+    {
+      "id": "1",
+      "title": "10 Days in Portugal: Lisbon, Porto, Douro Valley and the Algarve",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 3492,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513735492246-483525079686"
+    },
+    {
+      "id": "2",
+      "title": "7 Days in Switzerland: Zurich, Lucerne and Interlaken",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    },
+    {
+      "id": "3",
+      "title": "8 Days in Italy: Rome, Florence and Venice",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://i.pinimg.com/1200x/7b/db/18/7bdb18515af8751d3ba324c2105875e7.jpg"
+    },
+    {
+      "id": "4",
+      "title": "6 Days in Bali: Ubud, Seminyak and Uluwatu",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 1799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4"
+    },
+    {
+      "id": "5",
+      "title": "9 Days in Japan: Tokyo, Kyoto and Osaka",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e"
+    },
+    {
+      "id": "6",
+      "title": "5 Days in Dubai: Luxury City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 1599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+    },
+    {
+      "id": "7",
+      "title": "12 Days in Greece: Athens, Mykonos and Santorini",
+      "duration": "12 DAYS / 11 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "8",
+      "title": "8 Days in Iceland: Reykjavik and Golden Circle",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "9",
+      "title": "7 Days in Thailand: Bangkok and Phuket",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "10",
+      "title": "6 Days in Paris: The City of Lights",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+    },
+    {
+      "id": "11",
+      "title": "10 Days in Norway: Fjords and Northern Lights",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "12",
+      "title": "8 Days in Egypt: Cairo, Luxor and Aswan",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a"
+    },
+    {
+      "id": "13",
+      "title": "9 Days in Turkey: Istanbul and Cappadocia",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa"
+    },
+    {
+      "id": "14",
+      "title": "6 Days in Maldives: Beach Paradise Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "15",
+      "title": "7 Days in Ladakh: Himalayan Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 1499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "16",
+      "title": "5 Days in Darjeeling: Tea Gardens and Mountains",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027"
+    },
+    {
+      "id": "17",
+      "title": "8 Days in Rajasthan: Jaipur, Udaipur and Jodhpur",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1"
+    },
+    {
+      "id": "18",
+      "title": "6 Days in Kerala: Munnar and Alleppey",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429"
+    },
+    {
+      "id": "19",
+      "title": "7 Days in New Zealand: Queenstown Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+    },
+    {
+      "id": "20",
+      "title": "9 Days in Canada: Banff and Jasper National Parks",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "21",
+      "title": "5 Days in Singapore: Marina Bay and Sentosa",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 1799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd"
+    }
+  ],
+  "experiences": [
+    {
+      "user": "dubaguntlacharan123",
+      "title": "My Amazing Trip to Goa",
+      "country": "India",
+      "description": "I spent five wonderful days exploring Goa's beautiful beaches, enjoying local seafood, and watching the sunset at Baga Beach. The trip was relaxing and unforgettable. I would definitely recommend Goa to anyone looking for a fun vacation.",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2",
+      "date": "23/7/2026",
+      "id": "EvMGNhPU85U"
+    }
+  ],
+  "users": [
+    {
+      "email": "dubaguntlacharan123@gmail.com",
+      "password": "Charasnai@123",
+      "id": "mVpdtSq7BuQ",
+      "trips": [
+        {
+          "id": "81",
+          "title": "7 Days in Croatia: Dubrovnik & Split Explorer",
+          "duration": "7 DAYS / 6 NIGHTS",
+          "price": 2999,
+          "currency": "$",
+          "image": "https://images.unsplash.com/photo-1555990538-17392d2b7d52",
+          "countryName": "Croatia",
+          "plannedDate": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "email": "cdev8067@gmail.com",
+      "password": "Charasnai@123",
+      "id": "DaCG81gtkrA"
+    },
+    {
+      "email": "charanex1@gmail.com",
+      "password": "chaaran@123",
+      "trips": [],
+      "id": "5d3Iqq6XWkg"
+    }
+  ],
+  "countries": [
+    {
+      "id": "1",
+      "name": "Iceland",
+      "rating": 4.9,
+      "continent": "Europe",
+      "bestSeason": "June - August",
+      "currency": "Icelandic Króna (ISK)",
+      "language": "Icelandic",
+      "quote": "Discover a land of glaciers, volcanoes, waterfalls, black sand beaches, and breathtaking Northern Lights.",
+      "image": "https://i.pinimg.com/736x/fe/d9/96/fed9967d686e4b5fefa89c3240ffad3f.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Italy",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "April - June & September - October",
+      "currency": "Euro (EUR)",
+      "language": "Italian",
+      "quote": "Experience timeless history, world-famous cuisine, romantic canals, and breathtaking Mediterranean landscapes.",
+      "image": "https://i.pinimg.com/736x/36/83/14/3683141ad30ec4482bd375f55aaf4196.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Japan",
+      "rating": 4.9,
+      "continent": "Asia",
+      "bestSeason": "March - May & October - November",
+      "currency": "Japanese Yen (JPY)",
+      "language": "Japanese",
+      "quote": "Where ancient temples, futuristic cities, cherry blossoms, and rich traditions create unforgettable journeys.",
+      "image": "https://i.pinimg.com/736x/4a/48/86/4a4886a9a1070d9825bbd7e58ab51e25.jpg"
+    },
+    {
+      "id": "4",
+      "name": "London",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Pound Sterling (GBP)",
+      "language": "English",
+      "quote": "Explore royal palaces, iconic landmarks, charming streets, and centuries of British history.",
+      "image": "https://i.pinimg.com/736x/75/b1/88/75b1883be760376330d3a49bce60379a.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Portugal",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "March - October",
+      "currency": "Euro (EUR)",
+      "language": "Portuguese",
+      "quote": "Enjoy colorful coastal towns, golden beaches, historic castles, and unforgettable Atlantic sunsets.",
+      "image": "https://i.pinimg.com/736x/75/b1/88/75b1883be760376330d3a49bce60379a.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Spain",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "April - October",
+      "currency": "Euro (EUR)",
+      "language": "Spanish",
+      "quote": "Discover vibrant festivals, beautiful beaches, flamenco culture, and architectural masterpieces.",
+      "image": "https://i.pinimg.com/1200x/00/60/c8/0060c8a692f8be06547195ea00a06155.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Albania",
+      "rating": 4.6,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Albanian Lek (ALL)",
+      "language": "Albanian",
+      "quote": "Europe's hidden gem with turquoise beaches, mountain villages, ancient ruins, and warm hospitality.",
+      "image": "https://i.pinimg.com/736x/85/a1/ea/85a1ea83be5cb0e411de5a83a876aa37.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Bermuda",
+      "rating": 4.7,
+      "continent": "North America",
+      "bestSeason": "April - October",
+      "currency": "Bermudian Dollar (BMD)",
+      "language": "English",
+      "quote": "Relax on pink sand beaches, crystal-clear waters, luxury resorts, and peaceful island escapes.",
+      "image": "https://i.pinimg.com/236x/eb/d6/24/ebd624e309eb7d3f2917d52dfb6d5c16.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Croatia",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Euro (EUR)",
+      "language": "Croatian",
+      "quote": "Explore medieval cities, Adriatic islands, waterfalls, and stunning coastal scenery.",
+      "image": "https://i.pinimg.com/736x/7c/f1/77/7cf177fbaf26a462fcdf4e4ab3c1ecc9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Greece",
+      "rating": 4.9,
+      "continent": "Europe",
+      "bestSeason": "April - October",
+      "currency": "Euro (EUR)",
+      "language": "Greek",
+      "quote": "Experience ancient ruins, whitewashed islands, turquoise waters, and unforgettable sunsets.",
+      "image": "https://i.pinimg.com/736x/cd/c6/81/cdc681994c0efaf830479177d87965d5.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Morocco",
+      "rating": 4.7,
+      "continent": "Africa",
+      "bestSeason": "March - May & September - November",
+      "currency": "Moroccan Dirham (MAD)",
+      "language": "Arabic, Berber",
+      "quote": "Journey through colorful markets, golden deserts, majestic mountains, and ancient imperial cities.",
+      "image": "https://i.pinimg.com/736x/06/fe/4c/06fe4cbcb548f01a5610bc0d4c98dc2d.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Scotland",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Pound Sterling (GBP)",
+      "language": "English, Scottish Gaelic",
+      "quote": "Discover dramatic Highlands, legendary castles, peaceful lochs, and world-famous whisky trails.",
+      "image": "https://i.pinimg.com/1200x/cc/e4/72/cce47250eff7537741ae24ef795e626f.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Tanzania",
+      "rating": 4.8,
+      "continent": "Africa",
+      "bestSeason": "June - October",
+      "currency": "Tanzanian Shilling (TZS)",
+      "language": "Swahili, English",
+      "quote": "Witness incredible wildlife safaris, Mount Kilimanjaro, and Zanzibar's pristine beaches.",
+      "image": "https://i.pinimg.com/736x/4d/b2/65/4db2659972000988a344c58966b8b867.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Srilanka",
+      "rating": 4.8,
+      "continent": "Asia",
+      "bestSeason": "December - April",
+      "currency": "Sri Lankan Rupee (LKR)",
+      "language": "Sinhala, Tamil",
+      "quote": "Discover lush tea plantations, golden beaches, ancient temples, and incredible wildlife adventures.",
+      "image": "https://i.pinimg.com/736x/f0/c9/7a/f0c97a10c8266cb9a63caaecde1cc7e7.jpg"
+    },
+    {
+      "id": "15",
+      "name": "India",
+      "rating": 4.9,
+      "continent": "Asia",
+      "bestSeason": "October - March",
+      "currency": "Indian Rupee (INR)",
+      "language": "Hindi, English",
+      "quote": "A land of timeless heritage, vibrant cultures, majestic mountains, golden deserts, tropical beaches, and unforgettable experiences.",
+      "image": "https://i.pinimg.com/736x/93/c0/6a/93c06a68423c2dfbd50c2ff21f405334.jpg"
+    },
+    {
+      "id": "16",
+      "name": "The Azores",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Euro (EUR)",
+      "language": "Portuguese",
+      "quote": "Explore volcanic islands, emerald lakes, dramatic cliffs, hot springs, and breathtaking ocean views.",
+      "image": "https://i.pinimg.com/1200x/dd/15/fb/dd15fb7f33de95e3da51a0cef064ffec.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Ireland",
+      "rating": 4.8,
+      "continent": "Europe",
+      "bestSeason": "May - September",
+      "currency": "Euro (EUR)",
+      "language": "English, Irish",
+      "quote": "Travel through emerald landscapes, ancient castles, lively pubs, and breathtaking coastal roads.",
+      "image": "https://i.pinimg.com/736x/e4/9c/85/e49c858a40aa859de99a9ce8c140318c.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Los Angeles",
+      "rating": 4.7,
+      "continent": "North America",
+      "bestSeason": "March - May & September - November",
+      "currency": "US Dollar (USD)",
+      "language": "English",
+      "quote": "Experience Hollywood glamour, sunny beaches, luxury shopping, and world-famous entertainment.",
+      "image": "https://i.pinimg.com/736x/7e/11/0f/7e110f453cbd4a932109f7c5a931c9e8.jpg"
+    },
+    {
+      "id": "19",
+      "name": "New York City",
+      "rating": 4.8,
+      "continent": "North America",
+      "bestSeason": "April - June & September - November",
+      "currency": "US Dollar (USD)",
+      "language": "English",
+      "quote": "Discover iconic skyscrapers, Broadway shows, Central Park, world-class museums, and the city that never sleeps.",
+      "image": "https://i.pinimg.com/1200x/94/8b/7c/948b7cb7dad65656ffd3c9d0f0fd449f.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Mexico",
+      "rating": 4.7,
+      "continent": "North America",
+      "bestSeason": "November - April",
+      "currency": "Mexican Peso (MXN)",
+      "language": "Spanish",
+      "quote": "Explore ancient Mayan ruins, colorful cities, white-sand beaches, and vibrant Mexican culture.",
+      "image": "https://i.pinimg.com/1200x/46/ee/8a/46ee8af983274847ae812d661a0d05bb.jpg"
+    }
+  ],
+  "Iceland": [
+    {
+      "id": "1",
+      "title": "7 Days in Iceland: Reykjavik & Golden Circle",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1504893524553-b855bce32c67"
+    },
+    {
+      "id": "2",
+      "title": "5 Days in Iceland: South Coast Adventure",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2149,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1476611338391-6f395a0ebc7b"
+    },
+    {
+      "id": "3",
+      "title": "8 Days in Iceland: Ring Road Explorer",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+    },
+    {
+      "id": "4",
+      "title": "6 Days in Iceland: Northern Lights Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66"
+    },
+    {
+      "id": "5",
+      "title": "10 Days in Iceland: Complete Ring Road Expedition",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "6",
+      "title": "4 Days in Iceland: Blue Lagoon & Reykjavik",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    },
+    {
+      "id": "7",
+      "title": "9 Days in Iceland: Glaciers, Waterfalls & Fjords",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "id": "8",
+      "title": "5 Days in Iceland: Volcanoes & Hot Springs",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "9",
+      "title": "12 Days in Iceland: Ultimate Nature Discovery",
+      "duration": "12 DAYS / 11 NIGHTS",
+      "price": 5699,
+      "currency": "$",
+      "image": "https://i.pinimg.com/736x/06/fd/58/06fd58a4f0d02c99cb796837ed105717.jpg"
+    },
+    {
+      "id": "10",
+      "title": "7 Days in Iceland: Ice Caves & Black Sand Beaches",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    }
+  ],
+  "Italy": [
+    {
+      "id": "11",
+      "title": "8 Days in Italy: Rome, Florence & Venice",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+    },
+    {
+      "id": "12",
+      "title": "6 Days in Italy: Amalfi Coast Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140"
+    },
+    {
+      "id": "13",
+      "title": "10 Days in Italy: Tuscany, Pisa & Cinque Terre",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9"
+    },
+    {
+      "id": "14",
+      "title": "5 Days in Italy: Milan City Break",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b"
+    },
+    {
+      "id": "15",
+      "title": "7 Days in Italy: Venice & Lake Como",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0"
+    },
+    {
+      "id": "16",
+      "title": "9 Days in Italy: Sicily Explorer",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd"
+    },
+    {
+      "id": "17",
+      "title": "4 Days in Italy: Vatican & Rome Highlights",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5"
+    },
+    {
+      "id": "18",
+      "title": "11 Days in Italy: Grand Italian Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5299,
+      "currency": "$",
+      "image": "https://i.pinimg.com/1200x/70/1b/1b/701b1b9f220a5c10a4c2bbaa585d1caa.jpg"
+    },
+    {
+      "id": "19",
+      "title": "6 Days in Italy: Naples & Pompeii Adventure",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1529260830199-42c24126f198"
+    },
+    {
+      "id": "20",
+      "title": "8 Days in Italy: Dolomites & Verona Journey",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2"
+    }
+  ],
+  "Japan": [
+    {
+      "id": "21",
+      "title": "8 Days in Japan: Tokyo, Kyoto & Osaka",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+    },
+    {
+      "id": "22",
+      "title": "6 Days in Japan: Tokyo City Explorer",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://i.pinimg.com/1200x/d5/79/cb/d579cb6fb5f264b9681d0ef61789da4a.jpg"
+    },
+    {
+      "id": "23",
+      "title": "10 Days in Japan: Cherry Blossom Experience",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1492571350019-22de08371fd3"
+    },
+    {
+      "id": "24",
+      "title": "7 Days in Japan: Mount Fuji & Hakone",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65"
+    },
+    {
+      "id": "25",
+      "title": "5 Days in Japan: Osaka Food & Culture Tour",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26"
+    },
+    {
+      "id": "26",
+      "title": "9 Days in Japan: Kyoto Temples & Nara",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4199,
+      "currency": "$",
+      "image": "https://i.pinimg.com/1200x/59/67/5f/59675fcf731b4683b8ff90715aa3f9df.jpg"
+    },
+    {
+      "id": "27",
+      "title": "11 Days in Japan: Ultimate Japan Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1480796927426-f609979314bd"
+    },
+    {
+      "id": "28",
+      "title": "4 Days in Japan: Tokyo Weekend Escape",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8"
+    },
+    {
+      "id": "29",
+      "title": "7 Days in Japan: Hokkaido Nature Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    },
+    {
+      "id": "30",
+      "title": "8 Days in Japan: Hiroshima & Miyajima Journey",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1505067216369-2f4d0f8c5b8f"
+    }
+  ],
+  "London": [
+    {
+      "id": "31",
+      "title": "5 Days in London: Royal Landmarks Tour",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad"
+    },
+    {
+      "id": "32",
+      "title": "7 Days in London: History & Culture Experience",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd"
+    },
+    {
+      "id": "33",
+      "title": "4 Days in London: City Highlights Escape",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9"
+    },
+    {
+      "id": "34",
+      "title": "8 Days in London: England Discovery Tour",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 4199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
+    },
+    {
+      "id": "35",
+      "title": "6 Days in London: Museums & Thames Cruise",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1473959383414-a7c31be33764"
+    },
+    {
+      "id": "36",
+      "title": "9 Days in London: Castles & Countryside Adventure",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b"
+    },
+    {
+      "id": "37",
+      "title": "3 Days in London: Weekend City Break",
+      "duration": "3 DAYS / 2 NIGHTS",
+      "price": 1599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1465447142348-e9952c393450"
+    },
+    {
+      "id": "38",
+      "title": "10 Days in London: Britain Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 5299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa"
+    },
+    {
+      "id": "39",
+      "title": "7 Days in London: Harry Potter & Royal Palaces",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1517394834181-95ed159986c7"
+    },
+    {
+      "id": "40",
+      "title": "5 Days in London: Food, Markets & Nightlife",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd"
+    }
+  ],
+  "Portugal": [
+    {
+      "id": "41",
+      "title": "10 Days in Portugal: Lisbon, Porto & Algarve",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513735492246-483525079686"
+    },
+    {
+      "id": "42",
+      "title": "7 Days in Portugal: Lisbon & Sintra Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4"
+    },
+    {
+      "id": "43",
+      "title": "5 Days in Portugal: Porto Wine Experience",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b"
+    },
+    {
+      "id": "44",
+      "title": "8 Days in Portugal: Coastal Discovery Tour",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2"
+    },
+    {
+      "id": "45",
+      "title": "6 Days in Portugal: Algarve Beach Holiday",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "46",
+      "title": "9 Days in Portugal: Lisbon, Madeira & Porto",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "47",
+      "title": "4 Days in Portugal: Lisbon Weekend Getaway",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156"
+    },
+    {
+      "id": "48",
+      "title": "11 Days in Portugal: Complete Portugal Explorer",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b"
+    },
+    {
+      "id": "49",
+      "title": "7 Days in Portugal: Douro Valley & Porto",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3099,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
+    },
+    {
+      "id": "50",
+      "title": "5 Days in Portugal: Cascais & Atlantic Coast",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ],
+  "Spain": [
+    {
+      "id": "51",
+      "title": "8 Days in Spain: Madrid, Barcelona & Valencia",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325"
+    },
+    {
+      "id": "52",
+      "title": "6 Days in Spain: Barcelona City Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216"
+    },
+    {
+      "id": "53",
+      "title": "10 Days in Spain: Andalusia Discovery",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1509840841025-9088ba78a826"
+    },
+    {
+      "id": "54",
+      "title": "5 Days in Spain: Madrid Heritage Tour",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4"
+    },
+    {
+      "id": "55",
+      "title": "7 Days in Spain: Costa del Sol Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1512753360435-329c4535a9a3"
+    },
+    {
+      "id": "56",
+      "title": "9 Days in Spain: Seville, Granada & Cordoba",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913"
+    },
+    {
+      "id": "57",
+      "title": "4 Days in Spain: Ibiza Beach Getaway",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "58",
+      "title": "11 Days in Spain: Ultimate Spain Explorer",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f"
+    },
+    {
+      "id": "59",
+      "title": "7 Days in Spain: Basque Country & Bilbao",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba"
+    },
+    {
+      "id": "60",
+      "title": "6 Days in Spain: Mallorca Island Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    }
+  ],
+  "Albania": [
+    {
+      "id": "61",
+      "title": "7 Days in Albania: Tirana & Albanian Riviera",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+    },
+    {
+      "id": "62",
+      "title": "5 Days in Albania: Tirana City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "63",
+      "title": "8 Days in Albania: Beaches & Mountains Adventure",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+    },
+    {
+      "id": "64",
+      "title": "6 Days in Albania: Berat & Gjirokastër Heritage Tour",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156"
+    },
+    {
+      "id": "65",
+      "title": "10 Days in Albania: Complete Balkan Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "id": "66",
+      "title": "4 Days in Albania: Riviera Beach Holiday",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "67",
+      "title": "9 Days in Albania: Lakes, Peaks & Coastline",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    },
+    {
+      "id": "68",
+      "title": "7 Days in Albania: Ksamil & Sarandë Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "69",
+      "title": "11 Days in Albania: Nature & Culture Journey",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "70",
+      "title": "6 Days in Albania: Hidden Gems Adventure",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ],
+  "Bermuda": [
+    {
+      "id": "71",
+      "title": "6 Days in Bermuda: Pink Sand Beach Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "72",
+      "title": "5 Days in Bermuda: Hamilton City & Beaches",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "73",
+      "title": "8 Days in Bermuda: Complete Island Discovery",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 4999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "74",
+      "title": "4 Days in Bermuda: Weekend Paradise",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "75",
+      "title": "7 Days in Bermuda: Coral Reefs & Crystal Caves",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126"
+    },
+    {
+      "id": "76",
+      "title": "9 Days in Bermuda: Luxury Island Vacation",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 5899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "77",
+      "title": "5 Days in Bermuda: Snorkeling & Sailing Adventure",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+    },
+    {
+      "id": "78",
+      "title": "10 Days in Bermuda: Ultimate Beach Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 6499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef"
+    },
+    {
+      "id": "79",
+      "title": "6 Days in Bermuda: Island Hopping Experience",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "80",
+      "title": "7 Days in Bermuda: Sunsets & Coastal Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 4599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    }
+  ],
+  "Croatia": [
+    {
+      "id": "81",
+      "title": "7 Days in Croatia: Dubrovnik & Split Explorer",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1555990538-17392d2b7d52"
+    },
+    {
+      "id": "82",
+      "title": "5 Days in Croatia: Dubrovnik City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2"
+    },
+    {
+      "id": "83",
+      "title": "8 Days in Croatia: Adriatic Coast Adventure",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "84",
+      "title": "6 Days in Croatia: Plitvice Lakes & Zagreb",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "85",
+      "title": "10 Days in Croatia: Complete Dalmatian Coast",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "86",
+      "title": "4 Days in Croatia: Weekend by the Adriatic",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "87",
+      "title": "9 Days in Croatia: Islands & Coastal Villages",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126"
+    },
+    {
+      "id": "88",
+      "title": "7 Days in Croatia: Hvar Island Getaway",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+    },
+    {
+      "id": "89",
+      "title": "11 Days in Croatia: Ultimate Croatia Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef"
+    },
+    {
+      "id": "90",
+      "title": "6 Days in Croatia: Split, Trogir & Blue Lagoon",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    }
+  ],
+  "Greece": [
+    {
+      "id": "91",
+      "title": "7 Days in Greece: Athens & Santorini Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077"
+    },
+    {
+      "id": "92",
+      "title": "5 Days in Greece: Athens City Explorer",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0258235"
+    },
+    {
+      "id": "93",
+      "title": "8 Days in Greece: Mykonos & Santorini Adventure",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "94",
+      "title": "6 Days in Greece: Crete Island Discovery",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "95",
+      "title": "10 Days in Greece: Ancient Wonders & Islands",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 5199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "96",
+      "title": "4 Days in Greece: Santorini Weekend Getaway",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 2099,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "97",
+      "title": "9 Days in Greece: Rhodes, Crete & Mykonos",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126"
+    },
+    {
+      "id": "98",
+      "title": "7 Days in Greece: Meteora & Delphi Heritage Tour",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+    },
+    {
+      "id": "99",
+      "title": "11 Days in Greece: Ultimate Greek Odyssey",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef"
+    },
+    {
+      "id": "100",
+      "title": "6 Days in Greece: Corfu & Ionian Coast Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    }
+  ],
+  "Morocco": [
+    {
+      "id": "101",
+      "title": "7 Days in Morocco: Marrakech & Sahara Desert",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1489493887464-892be6d1daae"
+    },
+    {
+      "id": "102",
+      "title": "5 Days in Morocco: Marrakech City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada"
+    },
+    {
+      "id": "103",
+      "title": "8 Days in Morocco: Imperial Cities Tour",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1528127269322-539801943592"
+    },
+    {
+      "id": "104",
+      "title": "6 Days in Morocco: Casablanca & Rabat Explorer",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d"
+    },
+    {
+      "id": "105",
+      "title": "10 Days in Morocco: Grand Desert Expedition",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429"
+    },
+    {
+      "id": "106",
+      "title": "4 Days in Morocco: Blue City of Chefchaouen",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2"
+    },
+    {
+      "id": "107",
+      "title": "9 Days in Morocco: Atlas Mountains & Valleys",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "108",
+      "title": "7 Days in Morocco: Essaouira Coastal Journey",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1"
+    },
+    {
+      "id": "109",
+      "title": "11 Days in Morocco: Complete Moroccan Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800"
+    },
+    {
+      "id": "110",
+      "title": "6 Days in Morocco: Fes & Meknes Heritage Tour",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1482192505345-5655af888cc4"
+    }
+  ],
+  "Scotland": [
+    {
+      "id": "111",
+      "title": "7 Days in Scotland: Edinburgh & Highlands Explorer",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+    },
+    {
+      "id": "112",
+      "title": "5 Days in Scotland: Edinburgh City Break",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
+    },
+    {
+      "id": "113",
+      "title": "8 Days in Scotland: Highlands & Isle of Skye",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "114",
+      "title": "6 Days in Scotland: Loch Ness Adventure",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "115",
+      "title": "10 Days in Scotland: Castles & Highlands Journey",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+    },
+    {
+      "id": "116",
+      "title": "4 Days in Scotland: Glasgow Weekend Escape",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "117",
+      "title": "9 Days in Scotland: North Coast 500 Road Trip",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "118",
+      "title": "7 Days in Scotland: Whisky Trail & Scenic Villages",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3399,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "id": "119",
+      "title": "11 Days in Scotland: Ultimate Scottish Explorer",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "120",
+      "title": "6 Days in Scotland: Inverness & Cairngorms National Park",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ],
+  "Tanzania": [
+    {
+      "id": "121",
+      "title": "7 Days in Tanzania: Serengeti Safari Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801"
+    },
+    {
+      "id": "122",
+      "title": "5 Days in Tanzania: Mount Kilimanjaro Trek",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 3599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "123",
+      "title": "8 Days in Tanzania: Serengeti & Ngorongoro Safari",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 5299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1549366021-9f761d450615"
+    },
+    {
+      "id": "124",
+      "title": "6 Days in Tanzania: Zanzibar Beach Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "125",
+      "title": "10 Days in Tanzania: Wildlife & Zanzibar Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 6199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "126",
+      "title": "4 Days in Tanzania: Arusha Nature Tour",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027"
+    },
+    {
+      "id": "127",
+      "title": "9 Days in Tanzania: Big Five Safari Experience",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 5699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2"
+    },
+    {
+      "id": "128",
+      "title": "7 Days in Tanzania: Tarangire & Lake Manyara",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53"
+    },
+    {
+      "id": "129",
+      "title": "11 Days in Tanzania: Ultimate Tanzania Expedition",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 6899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6"
+    },
+    {
+      "id": "130",
+      "title": "6 Days in Tanzania: Safari & Cultural Villages",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801"
+    }
+  ],
+  "Srilanka": [
+    {
+      "id": "131",
+      "title": "7 Days in Sri Lanka: Colombo, Kandy & Ella",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe"
+    },
+    {
+      "id": "132",
+      "title": "5 Days in Sri Lanka: Colombo City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 1699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd"
+    },
+    {
+      "id": "133",
+      "title": "8 Days in Sri Lanka: Cultural Triangle Tour",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1544737151-6e4b2d4f6a36"
+    },
+    {
+      "id": "134",
+      "title": "6 Days in Sri Lanka: Southern Beaches Adventure",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2099,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "135",
+      "title": "10 Days in Sri Lanka: Complete Island Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 3999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "136",
+      "title": "4 Days in Sri Lanka: Galle Heritage Tour",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "137",
+      "title": "9 Days in Sri Lanka: Wildlife & Tea Plantations",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801"
+    },
+    {
+      "id": "138",
+      "title": "7 Days in Sri Lanka: Sigiriya & Nuwara Eliya",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "139",
+      "title": "11 Days in Sri Lanka: Ultimate Paradise Journey",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 4499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6"
+    },
+    {
+      "id": "140",
+      "title": "6 Days in Sri Lanka: Bentota & Mirissa Beach Holiday",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ],
+  "India": [
+    {
+      "id": "151",
+      "title": "8 Days in India: Delhi, Agra & Jaipur (Golden Triangle)",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 2499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da"
+    },
+    {
+      "id": "152",
+      "title": "6 Days in India: Kerala Backwaters & Munnar",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944"
+    },
+    {
+      "id": "153",
+      "title": "7 Days in India: Kashmir Paradise Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d"
+    },
+    {
+      "id": "154",
+      "title": "5 Days in India: Goa Beach Holiday",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 1799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2"
+    },
+    {
+      "id": "155",
+      "title": "10 Days in India: Rajasthan Royal Heritage Tour",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 3799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245"
+    },
+    {
+      "id": "156",
+      "title": "4 Days in India: Hyderabad Heritage & Food Tour",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66"
+    },
+    {
+      "id": "157",
+      "title": "9 Days in India: Himachal Adventure",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "158",
+      "title": "7 Days in India: Ladakh Road Trip",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1627894483216-2138af692e32"
+    },
+    {
+      "id": "159",
+      "title": "11 Days in India: Complete North India Explorer",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 4499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1514222134-b57cbb8ce073"
+    },
+    {
+      "id": "160",
+      "title": "6 Days in India: Andaman Islands Paradise",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    }
+  ],
+  "Mexico": [
+    {
+      "id": "161",
+      "title": "7 Days in Mexico: Cancun & Tulum Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1512813195386-6cf811ad3542"
+    },
+    {
+      "id": "162",
+      "title": "5 Days in Mexico: Cancun Beach Holiday",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "163",
+      "title": "8 Days in Mexico: Mexico City & Chichen Itza",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a"
+    },
+    {
+      "id": "164",
+      "title": "6 Days in Mexico: Riviera Maya Adventure",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "165",
+      "title": "10 Days in Mexico: Ultimate Yucatán Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "166",
+      "title": "4 Days in Mexico: Playa del Carmen Getaway",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "167",
+      "title": "9 Days in Mexico: Baja California Road Trip",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1468413253725-0d5181091126"
+    },
+    {
+      "id": "168",
+      "title": "7 Days in Mexico: Oaxaca Culture & Cuisine",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+    },
+    {
+      "id": "169",
+      "title": "11 Days in Mexico: Complete Mexico Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef"
+    },
+    {
+      "id": "170",
+      "title": "6 Days in Mexico: Puerto Vallarta Beach Escape",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    }
+  ],
+  "The Azores": [
+    {
+      "id": "181",
+      "title": "7 Days in The Azores: São Miguel Island Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "182",
+      "title": "5 Days in The Azores: Volcanoes & Hot Springs",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "id": "183",
+      "title": "8 Days in The Azores: Island Hopping Adventure",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "184",
+      "title": "6 Days in The Azores: Whale Watching Tour",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    },
+    {
+      "id": "185",
+      "title": "10 Days in The Azores: Complete Archipelago Explorer",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "186",
+      "title": "4 Days in The Azores: Furnas Nature Escape",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+    },
+    {
+      "id": "187",
+      "title": "9 Days in The Azores: Hiking & Waterfalls",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "188",
+      "title": "7 Days in The Azores: Scenic Lakes & Coastal Villages",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    },
+    {
+      "id": "189",
+      "title": "11 Days in The Azores: Ultimate Nature Adventure",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+    },
+    {
+      "id": "190",
+      "title": "6 Days in The Azores: Pico Island Discovery",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2599,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1511497584788-876760111969"
+    }
+  ],
+  "Ireland": [
+    {
+      "id": "191",
+      "title": "7 Days in Ireland: Dublin & Cliffs of Moher",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3099,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742"
+    },
+    {
+      "id": "192",
+      "title": "5 Days in Ireland: Dublin City Escape",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429"
+    },
+    {
+      "id": "193",
+      "title": "8 Days in Ireland: Wild Atlantic Way",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    },
+    {
+      "id": "194",
+      "title": "6 Days in Ireland: Ring of Kerry Explorer",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+    },
+    {
+      "id": "195",
+      "title": "10 Days in Ireland: Complete Emerald Isle Tour",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 4699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "196",
+      "title": "4 Days in Ireland: Galway Weekend Getaway",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 1999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "197",
+      "title": "9 Days in Ireland: Castles & Countryside",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "198",
+      "title": "7 Days in Ireland: Northern Ireland Adventure",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    },
+    {
+      "id": "199",
+      "title": "11 Days in Ireland: Ultimate Ireland Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 5299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "200",
+      "title": "6 Days in Ireland: Cork & Blarney Castle",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1511497584788-876760111969"
+    }
+  ],
+  "Los Angeles": [
+    {
+      "id": "201",
+      "title": "7 Days in Los Angeles: Hollywood & Beverly Hills",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da"
+    },
+    {
+      "id": "202",
+      "title": "5 Days in Los Angeles: City Highlights",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1468436139062-f60a71c5c892"
+    },
+    {
+      "id": "203",
+      "title": "8 Days in Los Angeles: Beaches & Theme Parks",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 4199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "204",
+      "title": "6 Days in Los Angeles: Santa Monica & Venice Beach",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 2999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "205",
+      "title": "10 Days in Los Angeles: California Dream Tour",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 5499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+    },
+    {
+      "id": "206",
+      "title": "4 Days in Los Angeles: Universal Studios Adventure",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98"
+    },
+    {
+      "id": "207",
+      "title": "9 Days in Los Angeles: Pacific Coast Experience",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000"
+    },
+    {
+      "id": "208",
+      "title": "7 Days in Los Angeles: Luxury City Escape",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+    },
+    {
+      "id": "209",
+      "title": "11 Days in Los Angeles: Southern California Explorer",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 6199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    },
+    {
+      "id": "210",
+      "title": "6 Days in Los Angeles: Malibu Coastal Getaway",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3199,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+    }
+  ],
+  "New York City": [
+    {
+      "id": "211",
+      "title": "7 Days in New York City: Manhattan & Brooklyn Explorer",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3499,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856"
+    },
+    {
+      "id": "212",
+      "title": "5 Days in New York City: Times Square City Break",
+      "duration": "5 DAYS / 4 NIGHTS",
+      "price": 2699,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2"
+    },
+    {
+      "id": "213",
+      "title": "8 Days in New York City: Iconic Landmarks Tour",
+      "duration": "8 DAYS / 7 NIGHTS",
+      "price": 4299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df"
+    },
+    {
+      "id": "214",
+      "title": "6 Days in New York City: Central Park & Museums",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3099,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25"
+    },
+    {
+      "id": "215",
+      "title": "10 Days in New York City: Ultimate NYC Experience",
+      "duration": "10 DAYS / 9 NIGHTS",
+      "price": 5999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785"
+    },
+    {
+      "id": "216",
+      "title": "4 Days in New York City: Broadway Weekend Escape",
+      "duration": "4 DAYS / 3 NIGHTS",
+      "price": 2299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee"
+    },
+    {
+      "id": "217",
+      "title": "9 Days in New York City: NYC & Niagara Falls Adventure",
+      "duration": "9 DAYS / 8 NIGHTS",
+      "price": 4999,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b"
+    },
+    {
+      "id": "218",
+      "title": "7 Days in New York City: Luxury Shopping & Dining",
+      "duration": "7 DAYS / 6 NIGHTS",
+      "price": 3899,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591"
+    },
+    {
+      "id": "219",
+      "title": "11 Days in New York City: East Coast Discovery",
+      "duration": "11 DAYS / 10 NIGHTS",
+      "price": 6799,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1500916434205-0c77489c6cf7"
+    },
+    {
+      "id": "220",
+      "title": "6 Days in New York City: Statue of Liberty & Skyline Tour",
+      "duration": "6 DAYS / 5 NIGHTS",
+      "price": 3299,
+      "currency": "$",
+      "image": "https://images.unsplash.com/photo-1522083165195-3424ed129620"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,386 @@
+/* ===========================
+   TOP SECTION
+=========================== */
+
+#details-div,
+#details-right-div{
+    margin-top:90px;
+    box-sizing:border-box;
+}
+
+#details-div{
+    width:55%;
+    float:left;
+    min-height:850px;
+    padding:60px;
+    background:linear-gradient(135deg,#283611,#3d5620);
+}
+
+#details-right-div{
+    width:45%;
+    float:left;
+    min-height:850px;
+    padding:60px 50px;
+    background:#ffffff;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:22px;
+}
+
+/* ===========================
+   LEFT SECTION
+=========================== */
+
+#details-name{
+    color:#fff;
+    font-size:72px;
+    font-weight:bold;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+#details-quote{
+    color:#f1f1f1;
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+#details-image{
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+/* ===========================
+   RIGHT DETAILS
+=========================== */
+
+#details-right-div h4{
+
+    background:#fff;
+
+    padding:22px 25px;
+
+    font-size:22px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+#details-right-div h4:hover{
+
+    transform:translateX(10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   TRAVEL STORIES
+=========================== */
+
+.travel-stories{
+
+    clear:both;
+
+    width:100%;
+
+    padding:80px 60px;
+
+    background:#fff;
+}
+
+.travel-h1{
+
+    font-size:64px;
+
+    margin-bottom:45px;
+
+    color:#111;
+
+    font-weight:bold;
+}
+
+/* ===========================
+   SLIDER
+=========================== */
+
+#buyit{
+
+    display:flex;
+
+    gap:35px;
+
+    overflow-x:auto;
+
+    scroll-behavior:smooth;
+
+    scroll-snap-type:x mandatory;
+
+    padding-bottom:20px;
+}
+
+#buyit::-webkit-scrollbar{
+
+    height:10px;
+}
+
+#buyit::-webkit-scrollbar-thumb{
+
+    background:#999;
+
+    border-radius:20px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.trip-card{
+
+    min-width:430px;
+
+    max-width:430px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    flex-shrink:0;
+
+    scroll-snap-align:start;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.12);
+
+    transition:.35s;
+}
+
+.trip-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.buy-image{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+}
+
+/* ===========================
+   TEXT
+=========================== */
+
+.duration{
+
+    margin:20px 25px 8px;
+
+    color:#777;
+
+    letter-spacing:3px;
+
+    font-size:14px;
+}
+
+.buy-h2{
+
+    margin:0 25px;
+
+    font-size:26px;
+
+    line-height:1.4;
+
+    color:#16324f;
+
+    min-height:90px;
+}
+
+/* ===========================
+   BOTTOM
+=========================== */
+
+.bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
+
+    padding:30px 25px;
+}
+
+.btn-view{
+
+    padding:14px 28px;
+
+    border:2px solid #222;
+
+    border-radius:40px;
+
+    background:#fff;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn-view:hover{
+
+    background:#222;
+
+    color:#fff;
+}
+
+.price-box{
+
+    text-align:right;
+}
+
+.from{
+
+    display:block;
+
+    font-size:14px;
+
+    color:#777;
+
+    letter-spacing:2px;
+}
+
+.price{
+
+    display:block;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    color:#111;
+}
+
+.price-box small{
+
+    color:#777;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+#details-div,
+#details-right-div{
+
+    width:100%;
+
+    float:none;
+
+    min-height:auto;
+
+    padding:30px;
+}
+
+#details-name{
+
+    font-size:42px;
+}
+
+#details-image{
+
+    height:260px;
+}
+
+#details-right-div h4{
+
+    font-size:18px;
+}
+
+.travel-stories{
+
+    padding:40px 20px;
+}
+
+.travel-h1{
+
+    font-size:38px;
+}
+
+.trip-card{
+
+    min-width:320px;
+
+    max-width:320px;
+}
+
+.buy-image{
+
+    height:220px;
+}
+
+.buy-h2{
+
+    font-size:22px;
+}
+
+.bottom{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:20px;
+}
+}/* Travel Date Label */
+.trip-card label{
+    display:block;
+    margin:20px 25px 8px;
+    font-size:15px;
+    font-weight:600;
+    color:#333;
+}
+
+/* Date Input */
+.travelDate{
+    width:calc(100% - 50px);
+    margin:0 25px 20px;
+    padding:12px 15px;
+    font-size:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+    cursor:pointer;
+    transition:0.3s;
+    background:#fff;
+}
+
+/* Hover */
+.travelDate:hover{
+    border-color:#2d6cdf;
+}
+
+/* Focus */
+.travelDate:focus{
+    border-color:#2d6cdf;
+    box-shadow:0 0 6px rgba(45,108,223,0.3);
+}

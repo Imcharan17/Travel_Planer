@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="auth-page">
+   <!-- Header -->
+    <header class="header">
+
+        <div class="logo" >
+            <a href="index.html" style="text-decoration: none; ">
+            <span style="color: aliceblue;">Travel</span>
+            <i class="fa-solid fa-earth-americas"></i>
+            <span class="sync">Sync</span>
+            </a>
+        </div>
+
+        <nav class="nav-links">
+            <div class="destination">
+                <a href="destinations.html">Destinations</a>
+                <div class="destination-menu">
+                    <div class="menu-center">
+                                        <h3>OUR FAVOURITE</h3>
+                <a href="#" class="country">Iceland</a>
+                <hr>
+                <a href="#" class="country">Italy</a>
+                <hr>
+                <a href="#" class="country">Japan</a>
+                <hr>
+                <a href="#" class="country">London</a>
+                <hr>
+                <a href="#" class="country">Portugal</a>
+                <hr>
+                <a href="#" class="country">Spain</a>
+                <hr>
+                <a href="destinations.html">See All Destinations</a>
+                         </div>
+                          <div class="menu-center">
+                                        <h3>WHERE TO GO IN THIS SPRING</h3>
+                <a href="#" class="country">Albania</a>
+                <hr>
+                <a href="#" class="country">Bermuda</a>
+                <hr>
+                <a href="#" class="country">Croatia</a>
+                <hr>
+                <a href="#" class="country">Greece</a>
+                <hr>
+                <a href="#" class="country">Morocco</a>
+                <hr>
+                <a href="#" class="country">Scotland</a>
+                <hr>
+                <a href="#" class="country">Tanzaina</a>
+                </div>
+                <div class="menu-center">
+                                        <h3>WHERE TO GO IN THIS WINTER</h3>
+                <a href="#" class="country">Srilanka</a>
+                <hr>
+                <a href="#"class="country">India</a>
+                <hr>
+                <a href="#" class="country">The Azores</a>
+                <hr>
+                <a href="#" class="country">Ireland</a>
+                <hr>
+                <a href="#" class="country">Los Angeles</a>
+                <hr>
+                <a href="#" class="country">New York City</a>
+                <hr>
+                <a href="#">Mexico</a>
+                </div>
+                <div class="last">
+                    <img class="right-img" src="right-img.jpg" alt="">
+                    <h1 class="right-h1">Not sure where to start?</h1>
+                    <p class="right-p">Get inspired by destinations chosen in this year's Best in Travel list.</p>
+                    <button class="right-btn">Start Discovering</button>
+                </div>
+                </div>
+            </div>
+        
+            <a href="trips.html">Trips</a>
+            <a href="#">Experiences</a>
+        </nav>
+
+        <div class="nav-right">
+            <button class="btn-trips" id="btn-signin" onclick="window.location.href='signin.html'">Sign In</button>
+        </div>
+
+    </header>
+
+    <div class="signin">
+        <h1 class="signin-h1">SIGN IN</h1>
+        <input type="text" placeholder="Email" id="email">
+        <br>
+        <input type="password" placeholder="Password" id="password">
+        <br>
+        <a href="#">Forgot Password ?</a>
+        <button id="btn-login" onclick="signin()">Sign in</button>
+        <a href="signup.html">Create Account </a>
+        <script src="signin.js"> </script>
+        <script src="index.js"></script>
+
+    </div>
+    <script>
+        const user = JSON.parse(localStorage.getItem("loggedInUser"));
+        const btn = document.getElementById("btn-signin");
+if (user) {
+    btn.textContent = "Logout";
+    btn.addEventListener("click", logout);
+} else {
+    btn.textContent = "Sign In";
+    btn.addEventListener("click", goToLogin);
+}
+
+function logout() {
+    localStorage.removeItem("loggedInUser");
+    window.location.reload();
+}
+
+function goToLogin() {
+    window.location.href = "signin.html";
+}
+    </script>
+</body>
+</html>

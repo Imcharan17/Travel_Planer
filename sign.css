@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.auth-page{
+
+    min-height:100vh;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url("signin_back.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+}
+
+.auth-page .header{
+    position:sticky;
+    top:0;
+    left:0;
+    background:rgba(8, 19, 31, 0.75);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+.auth-page .signin{
+    margin:auto;
+}
+
+/* ===========================
+      Sign In Card
+=========================== */
+
+.signin{
+
+    width:460px;
+    max-width:100%;
+    margin:auto;
+
+    padding:45px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+    text-align:center;
+}
+
+/* ===========================
+        Heading
+=========================== */
+
+.signin-h1{
+
+    color:#ffffff;
+
+    font-size:38px;
+
+    letter-spacing:2px;
+
+    margin-bottom:35px;
+}
+
+/* ===========================
+        Inputs
+=========================== */
+
+.signin input{
+
+    width:100%;
+
+    padding:16px 20px;
+
+    margin-bottom:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.90);
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+}
+
+.signin input:focus{
+
+    background:white;
+
+    box-shadow:0 0 15px rgba(45,212,191,.4);
+}
+
+.signin input::placeholder{
+
+    color:#555;
+}
+
+/* ===========================
+        Links
+=========================== */
+
+.signin a{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    margin:12px 0;
+
+    transition:.3s;
+}
+
+.signin a:hover{
+
+    color:#2DD4BF;
+}
+
+/* ===========================
+        Button
+=========================== */
+
+#btn-login{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:25px 0;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#2DD4BF;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#btn-login:hover{
+
+    background:#14B8A6;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(45,212,191,.45);
+}
+
+/* ===========================
+    Create Account Link
+=========================== */
+
+.signin a:last-child{
+
+    margin-top:10px;
+
+    font-weight:600;
+}
+
+/* ===========================
+      Responsive
+=========================== */
+
+@media(max-width:600px){
+
+    .auth-page{
+        background-attachment:scroll;
+    }
+
+    .signin{
+        width:90%;
+        padding:35px 25px;
+    }
+
+    .signin-h1{
+
+        font-size:30px;
+    }
+}
+
+@media (max-width: 992px){
+    .auth-page{
+        background-attachment:scroll;
+    }
+
+    .signin{
+        margin:auto;
+    }
+}
+
+@media (max-width: 768px){
+    .signin{
+        width:100%;
+        margin:auto;
+        padding:32px 22px;
+        border-radius:18px;
+    }
+
+    .signin-h1{
+        font-size:32px;
+        margin-bottom:28px;
+    }
+
+    .signin input{
+        padding:14px 16px;
+    }
+
+    #btn-login{
+        margin:20px 0;
+        font-size:17px;
+    }
+}
+
+@media (max-width: 480px){
+    .signin{
+        margin:auto;
+        padding:26px 16px;
+    }
+
+    .signin-h1{
+        font-size:28px;
+        letter-spacing:1px;
+    }
+
+    .signin input{
+        font-size:15px;
+    }
+
+    .signin a{
+        font-size:14px;
+    }
+
+    #btn-login{
+        padding:14px;
+        font-size:16px;
+    }
+}
