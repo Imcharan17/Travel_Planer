@@ -2,19 +2,15 @@ const BASE_URL = "https://travel-planer-backend-gmnt.onrender.com";
 
 let allTrips = [];
 
-// ===============================
-// Load All Destinations
-// ===============================
 async function getdestinations() {
+
     try {
 
         allTrips = [];
 
-        // Get all countries
         const countryRes = await fetch(`${BASE_URL}/countries`);
         const countries = await countryRes.json();
 
-        // Get trips from each country
         for (const country of countries) {
 
             const countryName = country.name;
@@ -46,18 +42,16 @@ async function getdestinations() {
 
         console.error(err);
 
-        document.getElementById("addtrips").innerHTML =
+        document.getElementById("destination-container").innerHTML =
             "<h2>Failed to load destinations.</h2>";
 
     }
+
 }
 
-// ===============================
-// Display Trips
-// ===============================
 function displayTrips(trips) {
 
-    const container = document.getElementById("addtrips");
+    const container = document.getElementById("destination-container");
 
     container.innerHTML = "";
 
@@ -76,56 +70,43 @@ function displayTrips(trips) {
 
         const card = document.createElement("div");
 
-        card.className = "trip-card";
+        card.className = "destination-card";
 
         card.innerHTML = `
 
             <img
-                class="buy-image"
                 src="${trip.image}"
                 alt="${trip.title}"
             >
 
-            <small class="duration">${country}</small>
+            <small>${country}</small>
 
-            <h2 class="buy-h2">
-                ${trip.title}
-            </h2>
+            <h2>${trip.title}</h2>
 
-            <p class="duration">
-                ${trip.duration}
-            </p>
+            <p>${trip.duration}</p>
 
             <div class="price-box">
 
-                <div class="price-info">
+                <span class="from">FROM</span>
 
-                    <span class="from">
-                        FROM
-                    </span>
+                <span class="price">
+                    ${trip.currency}${trip.price}
+                </span>
 
-                    <span class="price">
-                        ${trip.currency}${trip.price}
-                    </span>
-
-                    <small>Per Person</small>
-
-                </div>
+                <small>Per Person</small>
 
             </div>
 
-            <label for="travelDate${trip.id}">
+            <label>
                 📅 Select Travel Date
             </label>
 
             <input
                 type="date"
                 id="travelDate${trip.id}"
-                class="travelDate"
             >
 
             <button
-                class="btn-view"
                 onclick="addtrip('${trip.id}','${country}','travelDate${trip.id}')">
 
                 Add To My Trips
@@ -143,9 +124,6 @@ function displayTrips(trips) {
 
 }
 
-// ===============================
-// Search Trips
-// ===============================
 function searchTrips() {
 
     const keyword = document
@@ -162,46 +140,33 @@ function searchTrips() {
 
     }
 
-    const filteredTrips = allTrips.filter(item => {
+    const filtered = allTrips.filter(item =>
 
-        return (
+        item.country.toLowerCase().includes(keyword) ||
 
-            item.country.toLowerCase().includes(keyword) ||
+        item.trip.title.toLowerCase().includes(keyword) ||
 
-            item.trip.title.toLowerCase().includes(keyword) ||
+        item.trip.duration.toLowerCase().includes(keyword) ||
 
-            item.trip.duration.toLowerCase().includes(keyword) ||
+        item.trip.price.toString().includes(keyword)
 
-            item.trip.price.toString().includes(keyword)
+    );
 
-        );
-
-    });
-
-    displayTrips(filteredTrips);
+    displayTrips(filtered);
 
 }
 
-// ===============================
-// Search on Enter
-// ===============================
 document.addEventListener("DOMContentLoaded", () => {
 
-    const search = document.getElementById("search");
+    document.getElementById("search").addEventListener("keyup", e => {
 
-    if (search) {
+        if (e.key === "Enter") {
 
-        search.addEventListener("keyup", function (event) {
+            searchTrips();
 
-            if (event.key === "Enter") {
+        }
 
-                searchTrips();
-
-            }
-
-        });
-
-    }
+    });
 
     getdestinations();
 
