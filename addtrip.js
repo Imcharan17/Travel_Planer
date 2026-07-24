@@ -1,3 +1,4 @@
+console.log("addtrip.js started");
 let user = JSON.parse(localStorage.getItem("loggedInUser"));
 
 async function addtrip(id, countryName, dateInputId) {
@@ -89,3 +90,5 @@ async function addtrip(id, countryName, dateInputId) {
         alert("Something went wrong. Please try again.");
     }
 }
+window.addtrip = addtrip;
+console.log("addtrip.js loaded");
